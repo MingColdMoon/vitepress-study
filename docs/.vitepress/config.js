@@ -5,7 +5,7 @@ export default {
 
 
         nav: [
-            { text: '前端', link: '/study/vue2源码解析', activeMatch: '/study/vue2源码解析.md' }
+            { text: '前端', link: '/study/vue2', activeMatch: '/study/vue2' }
         ],
 
         sidebar: {
