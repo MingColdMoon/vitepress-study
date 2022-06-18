@@ -15,7 +15,7 @@ export default {
                     collapsible: true,
                     collapsed: false,
                     items: [
-                        { text: 'vue2源码解析', link: '/study/vue2源码解析.md' }
+                        { text: 'vue2源码解析', link: '/study/vue2.md' }
                     ]
                 },
                 {
@@ -23,7 +23,7 @@ export default {
                     collapsible: true,
                     collapsed: false,
                     items: [
-                        { text: 'vue3功能和vue2对比', link: '/study/vue3.md' }, // /guide/one.md
+                        { text: 'vue3功能和vue2对比', link: '/study/Vue3.md' }, // /guide/one.md
                     ]
                 },
                 {
