@@ -1,84 +1,71 @@
 export default {
     themeConfig: {
-        siteTitle: '飞叶的网站',
+        siteTitle: '冷月的笔记',
         logo: '/logo.jpg',
 
 
         nav: [
-            { text: '菜单1', link: '/menu1/', activeMatch: '/menu1/' },
-            { text: '菜单2', link: '/menu2/', activeMatch: '/menu2/' },
-            { text: '菜单3', link: '/menu3/', activeMatch: '/menu3/' },
+            { text: '前端', link: '/study/vue2源码解析', activeMatch: '/study/vue2源码解析.md' }
         ],
 
         sidebar: {
-            '/menu1/': [
+            '/study/': [
                 {
-                    text: 'section 1',
+                    text: 'vue2相关知识',
+                    collapsible: true,
+                    collapsed: false,
+                    items: [
+                        { text: 'vue2源码解析', link: '/study/vue2源码解析.md' }
+                    ]
+                },
+                {
+                    text: '小程序',
+                    collapsible: true,
+                    collapsed: false,
+                    items: [
+                        { text: '微信小程序', link: '/study/微信小程序.md' }
+                    ]
+                },
+                {
+                    text: 'vue3',
                     collapsible: true,
                     collapsed: false,
                     items: [
                         // This shows `/guide/index.md` page.
-                        { text: 'a', link: '/menu1/a.md' }, // /guide/index.md
-                        { text: 'b', link: '/menu1/b.md' }, // /guide/one.md
+                        { text: 'vue3语法', link: '/study/创建vue3.md' }, // /guide/index.md
+                        { text: 'vue3功能和vue2对比', link: '/study/vue3.md' }, // /guide/one.md
                     ]
                 },
                 {
-                    text: 'section 2',
+                    text: 'react',
                     collapsible: true,
                     collapsed: false,
                     items: [
-                        { text: 'c', link: '/menu1/c' }, // /guide/two.md
-                        { text: 'd', link: '/menu1/d' } // /guide/one.md
-                    ]
-                }
-            ],
-            '/menu2/': [
-                {
-                    text: 'section 1',
-                    collapsible: true,
-                    collapsed: false,
-                    items: [
-                        // This shows `/guide/index.md` page.
-                        { text: 'a', link: '/menu2/a.md' }, // /guide/index.md
-                        { text: 'b', link: '/menu2/b.md' }, // /guide/one.md
+                        { text: 'react语法', link: '/study/React.md' }
                     ]
                 },
                 {
-                    text: 'section 2',
+                    text: 'webpack',
                     collapsible: true,
                     collapsed: false,
                     items: [
-                        { text: 'c', link: '/menu2/c' }, // /guide/two.md
-                        { text: 'd', link: '/menu2/d' } // /guide/one.md
-                    ]
-                }
-            ],
-            '/menu3/': [
-                {
-                    text: 'menu3 section 1',
-                    collapsible: true,
-                    collapsed: false,
-                    items: [
-                        // This shows `/guide/index.md` page.
-                        { text: 'a', link: '/menu3/a.md' }, // /guide/index.md
-                        { text: 'b', link: '/menu3/b.md' }, // /guide/one.md
+                        { text: 'webpack原理和使用', link: '/study/webpack.md' }
                     ]
                 },
                 {
-                    text: 'menu3 section 2',
+                    text: 'typescript',
                     collapsible: true,
                     collapsed: false,
                     items: [
-                        { text: 'c', link: '/menu3/c' }, // /guide/two.md
-                        { text: 'd', link: '/menu3/d' } // /guide/one.md
+                        { text: 'typescript基本使用', link: '/study/TS.md' }
                     ]
                 }
-            ],
+            ]
         },
 
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+            // { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
             { icon: 'twitter', link: '...' },
             { icon: 'discord', link: '...' }
         ]
